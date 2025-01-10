@@ -4,7 +4,7 @@ import stateMachine as sm
 
 pygame.init()
 screen = pygame.display.set_mode((800, 600))
-image = pygame.image.load('tausta1.png')
+image = pygame.image.load("tausta1.png")
 running = True
 
 state_machine = sm.StateMachine(screen, None)
