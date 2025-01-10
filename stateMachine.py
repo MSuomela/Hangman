@@ -91,6 +91,7 @@ class Play(State):
         super().__init__(state_machine)
 
         self.screen = self.state_machine.screen
+        self.screen.blit(image,(0,0))
 
         basic_font = pygame.font.Font(None, 32)
         box = pygame.Rect(0,0, 30, 30)
